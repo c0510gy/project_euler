@@ -5,6 +5,8 @@
 using namespace std;
 typedef long long int lli;
 
+// 큰 수 문제가 자주 나오길래 매번 구현하기 귀찮아서 올려둠.
+
 string big_sum(string n1, string n2){
     string ret = "";
     stack<int> stk1, stk2, stk;
